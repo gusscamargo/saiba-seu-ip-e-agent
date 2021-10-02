@@ -1,4 +1,4 @@
-# Um software que exibe seu ip e seu User Agent do navegador
+# Um software que exibe seu ip e o User Agent do seu navegador
 
 Você pode digiar
 ```
