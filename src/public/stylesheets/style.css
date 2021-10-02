@@ -1,0 +1,51 @@
+h2 {
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    75% {
+        color: rgb(113, 197, 30);
+    }
+
+    100% {
+        color: magenta;
+    }
+}
+
+h1 {
+    animation: .8s shake infinite alternate;
+}
+
+@keyframes shake {
+    0% {
+        transform: skewX(-20deg);
+    }
+
+    5% {
+        transform: skewX(20deg);
+    }
+
+    10% {
+        transform: skewX(-20deg);
+    }
+
+    15% {
+        transform: skewX(20eg);
+    }
+
+    20% {
+        transform: skewX(0deg);
+    }
+
+    100% {
+        transform: skewX(0deg);
+    }
+}
