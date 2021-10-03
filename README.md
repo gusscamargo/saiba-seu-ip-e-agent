@@ -1,5 +1,7 @@
 # Um software que exibe seu ip e o User Agent do seu navegador
 
+- NodeJS 16
+
 Você pode digiar
 ```
 docker-compose up -d
