@@ -11,4 +11,4 @@ Para subir como ambiente local via Docker e entrar em [http://127.0.0.1/](http:/
 npm install
 npm run start
 ```
-Apois isso você tem acesso em [http://127.0.0.1:3000](http://127.0.0.1:3000)
+Após isso você tem acesso em [http://127.0.0.1:3000](http://127.0.0.1:3000)
