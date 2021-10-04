@@ -1,7 +1,5 @@
 FROM node:16
 
-WORKDIR /usr/app
-
 RUN npm i -g -y nodemon
 
 RUN mkdir /usr/data
