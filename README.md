@@ -11,7 +11,6 @@ Ele é um software que exibe seu ip e o User Agent do seu navegador
 - CSS
 - JS
 - Materialize CSS
-- Estrutura MVC
 
 ## Pre requisitos:
 1. Docker e docker-compose atualizados na ultima vesão.
