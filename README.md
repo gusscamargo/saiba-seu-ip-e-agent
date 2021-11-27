@@ -1,14 +1,36 @@
-# Um software que exibe seu ip e o User Agent do seu navegador
+# saiba-seu-ip-e-agent
 
+## O que ele faz?
+Ele é um software que exibe seu ip e o User Agent do seu navegador
+
+## O que o compõe?
 - NodeJS 16
+- Express.js
+- Docker
 
-Você pode digiar
+## Pre requisitos:
+1. Docker e docker-compose atualizados na ultima vesão.
+
+## Como instalar?
+1. Clone este repositorio.
+```
+git clone https://github.com/gusscamargo/saiba-seu-ip-e-agent
+```
+2. Abra o terminal dentro da pasta gerada.
+3. Digite no terminal:
 ```
 docker-compose up -d
 ```
-Para subir como ambiente local via Docker e entrar em [http://127.0.0.1/](http://127.0.0.1/) ou entrar na pasta src/ e digitar no terminal
+4. Acesse [http://127.0.0.1/](http://127.0.0.1/)
+
+**Outro jeito:**
+1. Possui NodeJS 16 instalado em sua maquina.
+2. Entre com o terminal em /src e digite:
 ```
 npm install
-npm run start
 ```
-Após isso você tem acesso em [http://127.0.0.1:3000](http://127.0.0.1:3000)
+```
+npm rum start
+```
+3.Acesse [http://127.0.0.1/](http://127.0.0.1/)
+```
