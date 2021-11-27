@@ -24,7 +24,7 @@ docker-compose up -d
 4. Acesse [http://127.0.0.1/](http://127.0.0.1/)
 
 **Outro jeito:**
-1. Possui NodeJS 16 instalado em sua maquina.
+1. Possua NodeJS 16 instalado em sua maquina.
 2. Entre com o terminal em /src e digite:
 ```
 npm install
