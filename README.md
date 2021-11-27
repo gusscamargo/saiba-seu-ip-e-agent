@@ -3,7 +3,7 @@
 ## O que ele faz?
 Ele é um software que exibe seu ip e o User Agent do seu navegador
 
-## O que o compõe?
+## O que compõe o Projeto?
 - NodeJS 16
 - Express.js
 - Docker
