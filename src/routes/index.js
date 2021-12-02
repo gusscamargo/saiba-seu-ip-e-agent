@@ -1,13 +1,8 @@
-const express = require('express');
-const router = express.Router();
+const router = require('express').Router();
+
+const indexController = require("../controllers/indexController")
 
 /* GET home page. */
-router.get("*", (req, res, next) => {
-  res.render('index', { 
-    title: 'Descobrir seu UserAgent e IP',
-    userAgent: req.get("User-Agent"),
-    userIp: req.ip
-  });
-});
+router.get("*", indexController.all);
 
 module.exports = router;
