@@ -1,7 +1,7 @@
-controller = Object()
+controller = new Object()
 
-controller.all = (req, res, next) => {
-  res.render('index', { 
+controller.index = (req, res, next) => {
+  return res.render('index', { 
     title: 'Descobrir seu UserAgent e IP',
     userAgent: req.get("User-Agent"),
     userIp: req.ip
